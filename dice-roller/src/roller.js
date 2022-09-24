@@ -31,7 +31,7 @@ function Roller() {
 
     return (
     <div className="entry-box">
-        <p>What are we rolling? 
+        <p><span style={{marginRight: '5px'}}>What are we rolling?</span>
             <span>
                 <input name="numDice" className='num-dice' type="text" value={state.numDice} onChange={onChangeHandler}/>d
                 <input name="numFaces" className='num-faces' type="text" value={state.numFaces} onChange={onChangeHandler}/>+
@@ -39,7 +39,7 @@ function Roller() {
             </span>
         </p>
         <p>
-            How many 1-bumps?<input name="numBumpOne" className='one-bumps' type='text' value={state.numBumpsOne} onChange={onChangeHandler}/>
+            <span style={{marginRight: '5px'}}>How many 1-bumps?</span><input name="numBumpOne" className='one-bumps' type='text' value={state.numBumpsOne} onChange={onChangeHandler}/>
         </p>
         <button onClick={onClick}>
             Calculate
