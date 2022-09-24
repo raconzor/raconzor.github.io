@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c941149.css",
-    "main.js": "/static/js/main.1e34de5c.js",
-    "index.html": "/index.html",
-    "main.6c941149.css.map": "/static/css/main.6c941149.css.map",
-    "main.1e34de5c.js.map": "/static/js/main.1e34de5c.js.map"
+    "main.css": "/dice-roller/static/css/main.6c941149.css",
+    "main.js": "/dice-roller/static/js/main.1e34de5c.js",
+    "index.html": "/dice-roller/index.html",
+    "main.6c941149.css.map": "/dice-roller/static/css/main.6c941149.css.map",
+    "main.1e34de5c.js.map": "/dice-roller/static/js/main.1e34de5c.js.map"
   },
   "entrypoints": [
     "static/css/main.6c941149.css",
