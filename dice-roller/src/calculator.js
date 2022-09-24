@@ -5,7 +5,7 @@ function getRawDieResult(size){
 
 function getRawRollResult(numDice, numFaces){
     var sizedArray = [...Array(numDice).keys()];
-    return sizedArray.map((val, index, array) => getRawDieResult(numFaces));
+    return sizedArray.map(() => getRawDieResult(numFaces));
 }
 
 function addInExplosions(rawResults, numExplosions, numFaces){
@@ -81,13 +81,4 @@ function calculateResult(numDice, numFaces, bumps, numOnesCanBump){
     return [diceRolled, total, numExplosions];
 }
 
-class Result{
-    constructor(rolls,total,numExplosions){
-        this.rolls = rolls;
-        this.total = total;
-        this.numExplosions = numExplosions;
-    }
-}
-
-//console.log(`Total: ${calculateResult(10,6,2)}`);
 export default calculateResult;
