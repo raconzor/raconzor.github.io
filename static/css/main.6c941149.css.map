@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.6c941149.css","mappings":"AAAA,UACI,UACJ,CAUA,iCACI,UACJ","sources":["index.css"],"sourcesContent":[".num-dice {\r\n    width: 20px;\r\n}\r\n\r\n.num-faces {\r\n    width: 15px;\r\n}\r\n\r\n.num-bumps {\r\n    width: 15px;\r\n}\r\n\r\n.one-bumps{\r\n    width: 15px;\r\n}"],"names":[],"sourceRoot":""}
